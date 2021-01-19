@@ -103,6 +103,7 @@ class LinkedList {
         }
     }
     public void insertAt(int data, int index){
+        if(head == null) return;
 
     }
     public void removeFrom(int data){
